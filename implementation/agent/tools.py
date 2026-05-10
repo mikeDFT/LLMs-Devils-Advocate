@@ -113,7 +113,7 @@ class ToolExecutor:
             "Slippery Slope": r"(next thing|before you know|lead to|will eventually)",
             "False Dilemma": r"(either\s+.+\s+or|only (two|2) (options|choices))",
             "Appeal to Emotion": r"(think of the children|how would you feel|imagine if)",
-            "Bandwagon": r"(everyone|most people|majority)\s+(knows?|believes?|agrees?)",
+            "Ad Populum": r"(everyone|most people|majority)\s+(knows?|believes?|agrees?)",
             "Circular Reasoning": r"(because it (is|just is)|true because.+true)",
         }
         for fallacy, pattern in patterns.items():
