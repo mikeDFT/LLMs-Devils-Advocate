@@ -1,0 +1,48 @@
+{'loss': 2.6428, 'grad_norm': 11.718454360961914, 'learning_rate': 1.1666666666666668e-05, 'epoch': 0.3}
+{'loss': 2.4753, 'grad_norm': 17.94883918762207, 'learning_rate': 1.9603174603174602e-05, 'epoch': 0.6}                               
+{'loss': 2.3129, 'grad_norm': 12.269989967346191, 'learning_rate': 1.8280423280423283e-05, 'epoch': 0.89}                             
+{'eval_loss': 2.2395012378692627, 'eval_accuracy': 0.299412915851272, 'eval_f1': 0.2969917388923456, 'eval_runtime': 1.2539, 'eval_samples_per_second': 407.525, 'eval_steps_per_second': 12.76, 'epoch': 1.0}
+{'loss': 1.8362, 'grad_norm': 21.00135040283203, 'learning_rate': 1.695767195767196e-05, 'epoch': 1.19}                               
+{'loss': 1.6619, 'grad_norm': 22.110313415527344, 'learning_rate': 1.5634920634920637e-05, 'epoch': 1.49}
+{'loss': 1.6352, 'grad_norm': 17.9289608001709, 'learning_rate': 1.4312169312169312e-05, 'epoch': 1.79}                               
+{'eval_loss': 1.923584222793579, 'eval_accuracy': 0.38943248532289626, 'eval_f1': 0.37332561266756265, 'eval_runtime': 1.0506, 'eval_samples_per_second': 486.367, 'eval_steps_per_second': 15.229, 'epoch': 2.0}
+{'loss': 1.4282, 'grad_norm': 31.405475616455078, 'learning_rate': 1.298941798941799e-05, 'epoch': 2.08}                              
+{'loss': 0.9394, 'grad_norm': 21.865007400512695, 'learning_rate': 1.1666666666666668e-05, 'epoch': 2.38}
+{'loss': 0.9879, 'grad_norm': 27.48863410949707, 'learning_rate': 1.0343915343915345e-05, 'epoch': 2.68}                              
+{'loss': 0.8245, 'grad_norm': 35.30267333984375, 'learning_rate': 9.021164021164022e-06, 'epoch': 2.98}                               
+{'eval_loss': 2.069896936416626, 'eval_accuracy': 0.410958904109589, 'eval_f1': 0.39367622436859445, 'eval_runtime': 1.058, 'eval_samples_per_second': 482.97, 'eval_steps_per_second': 15.122, 'epoch': 3.0}
+{'loss': 0.5508, 'grad_norm': 20.74228286743164, 'learning_rate': 7.698412698412699e-06, 'epoch': 3.27}                               
+{'loss': 0.5004, 'grad_norm': 25.715097427368164, 'learning_rate': 6.375661375661376e-06, 'epoch': 3.57}
+{'loss': 0.5469, 'grad_norm': 87.1519775390625, 'learning_rate': 5.052910052910054e-06, 'epoch': 3.87}                                
+{'eval_loss': 2.239015579223633, 'eval_accuracy': 0.40313111545988256, 'eval_f1': 0.3722822227108612, 'eval_runtime': 1.061, 'eval_samples_per_second': 481.634, 'eval_steps_per_second': 15.081, 'epoch': 4.0}
+{'loss': 0.3808, 'grad_norm': 18.700246810913086, 'learning_rate': 3.7301587301587305e-06, 'epoch': 4.17}                             
+{'loss': 0.29, 'grad_norm': 22.321826934814453, 'learning_rate': 2.4074074074074075e-06, 'epoch': 4.46}
+{'loss': 0.2751, 'grad_norm': 18.84258460998535, 'learning_rate': 1.0846560846560847e-06, 'epoch': 4.76}                              
+{'eval_loss': 2.2988572120666504, 'eval_accuracy': 0.4344422700587084, 'eval_f1': 0.41323398912153675, 'eval_runtime': 1.1043, 'eval_samples_per_second': 462.755, 'eval_steps_per_second': 14.489, 'epoch': 5.0}
+{'train_runtime': 122.0091, 'train_samples_per_second': 109.828, 'train_steps_per_second': 6.885, 'train_loss': 1.1612623271488007, 'epoch': 5.0}
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 840/840 [02:02<00:00,  6.88it/s] 
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:01<00:00, 15.88it/s]
+Final eval accuracy: 0.4344
+Final eval Macro F1: 0.4132
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 16/16 [00:00<00:00, 16.30it/s]
+
+Classification Report:
+                        precision    recall  f1-score   support
+
+            ad_hominem       0.63      0.65      0.64        57
+            ad_populum       0.57      0.74      0.64        35
+     appeal_to_emotion       0.34      0.43      0.38        49
+    circular_reasoning       0.39      0.45      0.42        20
+          equivocation       0.20      0.11      0.14         9
+fallacy_of_credibility       0.39      0.38      0.38        37
+  fallacy_of_extension       0.50      0.42      0.46        26
+      fallacy_of_logic       0.37      0.23      0.28        31
+  fallacy_of_relevance       0.23      0.15      0.18        46
+       false_causality       0.53      0.53      0.53        34
+         false_dilemma       0.46      0.67      0.55        18
+           intentional       0.29      0.33      0.31        60
+ faulty_generalization       0.48      0.44      0.46        89
+
+              accuracy                           0.43       511
+             macro avg       0.41      0.43      0.41       511
+          weighted avg       0.43      0.43      0.43       511
