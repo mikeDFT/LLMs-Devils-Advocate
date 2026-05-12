@@ -13,7 +13,6 @@ gguf_output/
 implementation/fallacy_model/
 implementation/sft_adapter/
 implementation/debate_rag_db/
-implementation/evaluation_results/
 
 # Cache and temporary runs
 **/runs/
