@@ -1,0 +1,44 @@
+{
+  "num_prompts": 50,
+  "criteria_scores": {
+    "opposes_thesis": 0.96,
+    "uses_evidence": 1.0,
+    "evidence_relevance": 0.96,
+    "detects_fallacy": 1.0,
+    "ignores_irrelevant": 0.94,
+    "stays_in_persona": 0.98,
+    "no_hallucination": 0.98
+  },
+  "overall_score": 0.974,
+  "fallacy_detection_accuracy": 0.647,
+  "average_fallacy_confidence": 0.757,
+  "tier_averages": {
+    "easy": {
+      "opposes_thesis": 0.882,
+      "uses_evidence": 1.0,
+      "evidence_relevance": 0.882,
+      "detects_fallacy": 1.0,
+      "ignores_irrelevant": 0.882,
+      "stays_in_persona": 0.941,
+      "no_hallucination": 1.0
+    },
+    "med": {
+      "opposes_thesis": 1.0,
+      "uses_evidence": 1.0,
+      "evidence_relevance": 1.0,
+      "detects_fallacy": 1.0,
+      "ignores_irrelevant": 0.938,
+      "stays_in_persona": 1.0,
+      "no_hallucination": 0.938
+    },
+    "hard": {
+      "opposes_thesis": 1.0,
+      "uses_evidence": 1.0,
+      "evidence_relevance": 1.0,
+      "detects_fallacy": 1.0,
+      "ignores_irrelevant": 1.0,
+      "stays_in_persona": 1.0,
+      "no_hallucination": 1.0
+    }
+  }
+}
